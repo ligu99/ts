@@ -34,7 +34,8 @@ const strArr: string[] = ["1", "2", "3"];
 const numArr: number[] = [1, 3];
 const moreArr: (string | number)[] = [1, "3"];
 const aynArr: any[] = [1, "3", { a: 1, b: 2 }];
-
+// 使用泛型定义数组
+const fanList: Array<number> = [1, 2, 3]
 // 对象数组
 const objArr: { name: string, age: number }[] = [{
     name: "laowang",
